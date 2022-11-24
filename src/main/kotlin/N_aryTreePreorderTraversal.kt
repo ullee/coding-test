@@ -1,4 +1,4 @@
-class Solution2 {
+class N_aryTreePreorderTraversal {
     fun preorder(root: Node?): List<Int> {
         val result = mutableListOf<Int>()
         root?.also {
@@ -12,7 +12,7 @@ class Solution2 {
 }
 
 fun main() {
-    val solution = Solution2()
+    val solution = N_aryTreePreorderTraversal()
     val nodes = Node(1).apply {
         children = listOf(
             Node(3).apply {

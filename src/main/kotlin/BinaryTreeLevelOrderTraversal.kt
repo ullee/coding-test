@@ -1,4 +1,4 @@
-class Solution3 {
+class BinaryTreeLevelOrderTraversal {
     fun levelOrder(root: TreeNode?): List<List<Int>> {
         val result = mutableListOf<MutableList<Int>>()
         levelOrderTraversal(result, 0, root)
@@ -22,7 +22,7 @@ class Solution3 {
 }
 
 fun main() {
-    val solution = Solution3()
+    val solution = BinaryTreeLevelOrderTraversal()
     val nodes = TreeNode(1).apply {
         left = TreeNode(2).apply {
             left = TreeNode(4)

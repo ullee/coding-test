@@ -1,4 +1,4 @@
-class Solution : ListNode() {
+class LongestPalindrome : ListNode() {
     fun ListNode.toList(): List<Int> {
         val result = mutableListOf<Int>()
         var isFirstIndex = true
@@ -111,7 +111,7 @@ class Solution : ListNode() {
 }
 
 fun main(args: Array<String>) {
-    val solution = Solution()
+    val solution = LongestPalindrome()
     // solution.detectCycle(ListNode.from(listOf(3, 2, 0, -4)))
     // println(solution.maxProfit(listOf(7, 1, 5, 3, 6, 4).toIntArray()))
     var s =

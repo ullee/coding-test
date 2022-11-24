@@ -1,4 +1,4 @@
-class Solution4 {
+class BinarySearch {
     fun search(nums: IntArray, target: Int): Int {
         return binarySearch(nums, target, i = 0, j = nums.size)
     }
@@ -38,7 +38,7 @@ class Solution4 {
 }
 
 fun main() {
-    val solution = Solution4()
+    val solution = BinarySearch()
     val nums = intArrayOf(-1,0,3,5,9,12)
     val target = 9
     println(solution.search(nums, target))
