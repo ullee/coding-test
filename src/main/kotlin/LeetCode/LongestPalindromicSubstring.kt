@@ -11,7 +11,9 @@ class LongestPalindromicSubstring {
             for (j in i..s.length) {
                 val sub = s.substring(i, j)
                 if (isPalindrome(sub)) {
-                    if (answer.length < sub.length) answer = sub
+                    if (answer.length < sub.length) {
+                        answer = sub
+                    }
                 }
             }
         }
@@ -23,6 +25,7 @@ class LongestPalindromicSubstring {
             return true
         }
 
+        // 문자열 처음부터 그리고 마지막부터 양쪽으로 단어 하나씩 검사 후 하나라도 틀리면 false
         for (i in 0..s.lastIndex / 2) {
             if (s[i] != s[s.lastIndex - i]) {
                 return false
