@@ -3,13 +3,7 @@ package kakaom
 class Test2 {
     fun solution(N: Int, A: IntArray, B: IntArray): Boolean {
         val m = mutableSetOf<Int>()
-        A.forEach { a ->
-            m.add(a)
-            B.forEach { b->
-                m.add(b)
-            }
-        }
-
+        A.forEach { a -> m.add(a); B.forEach { b-> m.add(b) } }
         return m.size == N && m.first() == 1 && m.last() == N
     }
 }
