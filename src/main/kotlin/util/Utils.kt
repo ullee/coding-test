@@ -16,9 +16,9 @@ open class ListNode(
         fun from(nodes: List<Int>): ListNode {
             val node = ListNode()
             nodes.reversed().forEach {
-                val temp = ListNode(it)
-                temp.next = node.next
-                node.next = temp
+                val t = ListNode(it)
+                t.next = node.next
+                node.next = t
             }
             return node.next!!
         }
