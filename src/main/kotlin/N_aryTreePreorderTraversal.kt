@@ -1,3 +1,5 @@
+import util.Node
+
 class N_aryTreePreorderTraversal {
     fun preorder(root: Node?): List<Int> {
         val result = mutableListOf<Int>()

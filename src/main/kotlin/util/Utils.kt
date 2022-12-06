@@ -1,10 +1,12 @@
-open class Node(
+package util
+
+class Node(
     var `val`: Int
 ) {
     var children: List<Node?> = listOf()
 }
 
-open class ListNode(
+class ListNode(
     var `val`: Int = -1,
     var next: ListNode? = null
 ) {

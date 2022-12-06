@@ -1,6 +1,6 @@
 package LeetCode
 
-import ListNode
+import util.ListNode
 
 class TwoNumbers {
     companion object {
