@@ -1,3 +1,5 @@
+package test
+
 class BinarySearch {
     fun search(nums: IntArray, target: Int): Int {
         return binarySearch(nums, target, i = 0, j = nums.size)

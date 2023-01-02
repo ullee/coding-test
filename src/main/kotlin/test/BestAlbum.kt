@@ -1,3 +1,5 @@
+package test
+
 class BestAlbum {
     fun solution(genres: Array<String>, plays: IntArray): IntArray {
         return plays.indices.groupBy { genres[it] }

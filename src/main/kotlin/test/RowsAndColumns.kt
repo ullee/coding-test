@@ -1,3 +1,5 @@
+package test
+
 import java.lang.Integer.min
 
 private class RowsAndColumns {

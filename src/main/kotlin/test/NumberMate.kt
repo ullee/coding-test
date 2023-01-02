@@ -1,3 +1,5 @@
+package test
+
 import java.util.LinkedList
 
 private class NumberMate {
