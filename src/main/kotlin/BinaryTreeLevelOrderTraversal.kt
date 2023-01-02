@@ -1,3 +1,5 @@
+import util.TreeNode
+
 class BinaryTreeLevelOrderTraversal {
     fun levelOrder(root: TreeNode?): List<List<Int>> {
         val result = mutableListOf<MutableList<Int>>()
